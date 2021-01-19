@@ -639,7 +639,7 @@ void MainWindow::on_pushButton_16_clicked()
             int flag = 0;
             if(directory->exists(ui->lineEdit_4->text()))
             {
-                QMessageBox::StandardButton reply = QMessageBox::question(this, "Збереження", "Папка вже існує.\nПЕрезаписати зміст папки?",
+                QMessageBox::StandardButton reply = QMessageBox::question(this, "Збереження", "Папка вже існує.\nПерезаписати зміст папки?",
                                                                           QMessageBox::Yes | QMessageBox::No);
                 if(reply == QMessageBox::No)
                 {
