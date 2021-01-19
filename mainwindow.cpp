@@ -813,7 +813,7 @@ void MainWindow::on_pushButton_3_clicked()
             for(int i = 0; i < ui->lineEdit_5->text().size(); i++)
             {
                 char a = ui->lineEdit_5->text().toStdString()[i];
-                if(((a >= 48 && a <= 57) || (a >= 97 && a <= 122) || (a >= 48 && a <= 57))){}
+                if(((a >= 48 && a <= 57) || (a >= 97 && a <= 122) || (a >= 65 && a <= 90) || a==95)){}
                 else{ check = 1;break; }
             }
 
